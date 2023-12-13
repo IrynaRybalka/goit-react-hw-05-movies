@@ -2,7 +2,7 @@ import { getMovieDetails } from "Api/api";
 import { useEffect, useState } from "react";
 import { Link, Outlet, useLocation, useParams } from "react-router-dom";
 import { GoArrowLeft } from "react-icons/go";
-import { Button, GenresList, InfoBox, LinkBack, MovieContainer, MovieInfo } from "./MovieDetails.styled";
+import { Button, GenresList, InfoBox, MovieContainer, MovieInfo } from "./MovieDetails.styled";
 
 const MovieDetails = ()=>{
     const [movieDetail, setMovieDetail] = useState({});
